@@ -26,13 +26,13 @@ export default function CourseDetailPage() {
   return (
     <>
       {course && (
-        <div>
-          <div className="bg-[#2D2F31] min-h-[40vh] w-full text-white flex sm:flex-row flex-col justify-around items-center">
-            <div className="flex flex-col gap-4 w-[45%] ml-[8%]">
-              <span className="sm:text-3xl text-xl font-bold">
+        <div className=" pb-4">
+          <div className="bg-[#2D2F31] min-h-[40vh] h-fit w-full text-white flex md:flex-row flex-col-reverse justify-around items-center gap-4 pb-4">
+            <div className="flex flex-col gap-4 max-w-[600px] lg:w-[65%] w-[90%] lg:ml-[8%] ml-[2%] ">
+              <span className="sm:text-3xl text-xl font-bold text-center">
                 {course.name}
               </span>
-              <p className="text-xl">{course.description}</p>
+              <p className="sm:text-xl text-lg text-center">{course.description}</p>
               <p>Created by {course.instructor}</p>
               <section className="flex flex-row gap-3">
                 <span>Enrollments : {course.enrollmentStatus}</span>
@@ -41,7 +41,7 @@ export default function CourseDetailPage() {
               </section>
               <p>Schedule : {course.schedule}</p>
             </div>
-            <div className="w-[30%]">
+            <div className="max-w-[300px] w-[900px]">
               <img
                 src="https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80 "
                 alt="Medhansh"

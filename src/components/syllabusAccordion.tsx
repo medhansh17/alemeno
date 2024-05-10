@@ -16,7 +16,7 @@ export const SyllabusAccordion = ({
   }[];
 }) => {
   return (
-    <div className="mt-4">
+    <div className="mt-4 border-[#dcdcdc] border-[1px] ">
       <Accordion defaultIndex={[0]} allowMultiple={true}>
         {syllabus.map((syllabus) => (
           <AccordionItem key={syllabus.week}>
