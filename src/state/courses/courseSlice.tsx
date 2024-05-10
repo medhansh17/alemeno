@@ -51,6 +51,22 @@ export const fetchCourses = createAsyncThunk(
   }
 );
 
+export const fetchCourse = createAsyncThunk(
+  "courses/fetchCourse",
+  async (id: number) => {
+    try {
+      const response = await fetch(`http://localhost:8000/courses/${id}`);
+      if (!response.ok) {
+        throw new Error("Failed to fetch course");
+      }
+      const data = await response.json();
+      return data;
+    } catch (error) {
+      console.log("Error fetching course", error);
+    }
+  }
+);
+
 const courseSlice = createSlice({
   name: "courses",
   initialState,
