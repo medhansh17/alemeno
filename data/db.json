@@ -10,7 +10,10 @@
       "duration": "8 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic JavaScript knowledge", "Familiarity with React"],
+      "prerequisites": [
+        "Basic JavaScript knowledge",
+        "Familiarity with React"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -76,7 +79,9 @@
       "duration": "10 weeks",
       "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["Completion of Introduction to React Native course"],
+      "prerequisites": [
+        "Completion of Introduction to React Native course"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -141,7 +146,9 @@
       "duration": "12 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 9:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic knowledge of HTML, CSS, and JavaScript"],
+      "prerequisites": [
+        "Basic knowledge of HTML, CSS, and JavaScript"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -216,7 +223,9 @@
       "duration": "8 weeks",
       "schedule": "Saturdays, 10:00 AM - 1:00 PM",
       "location": "Online",
-      "prerequisites": ["No prior programming experience required"],
+      "prerequisites": [
+        "No prior programming experience required"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -271,7 +280,9 @@
       "duration": "10 weeks",
       "schedule": "Wednesdays and Fridays, 7:00 PM - 9:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic knowledge of Python"],
+      "prerequisites": [
+        "Basic knowledge of Python"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -336,7 +347,9 @@
       "duration": "10 weeks",
       "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic programming knowledge"],
+      "prerequisites": [
+        "Basic programming knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -401,7 +414,9 @@
       "duration": "12 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["No prior programming experience required"],
+      "prerequisites": [
+        "No prior programming experience required"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -476,7 +491,9 @@
       "duration": "10 weeks",
       "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic programming knowledge"],
+      "prerequisites": [
+        "Basic programming knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -562,7 +579,9 @@
       "duration": "12 weeks",
       "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic programming knowledge"],
+      "prerequisites": [
+        "Basic programming knowledge"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -648,7 +667,9 @@
       "duration": "10 weeks",
       "schedule": "Saturdays, 10:00 AM - 12:00 PM",
       "location": "Online",
-      "prerequisites": ["Basic understanding of computer science"],
+      "prerequisites": [
+        "Basic understanding of computer science"
+      ],
       "syllabus": [
         {
           "week": 1,
@@ -702,6 +723,32 @@
         }
       ],
       "students": []
+    }
+  ],
+  "users": [
+    {
+      "id": "6c51",
+      "firstName": "medhansh",
+      "lastName": "jain",
+      "email": "me@gmail.com",
+      "password": "123456",
+      "enrolledCourses": []
+    },
+    {
+      "id": "1694",
+      "firstName": "medhansh",
+      "lastName": "jain",
+      "email": "m@gmail.com",
+      "password": "medhansh@401",
+      "enrolledCourses": []
+    },
+    {
+      "id": "015f",
+      "firstName": "yash",
+      "lastName": "yash",
+      "email": "yash@gmail.com",
+      "password": "yash1234",
+      "enrolledCourses": []
     }
   ]
 }

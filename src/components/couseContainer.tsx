@@ -5,10 +5,10 @@ import { useEffect, useState } from "react";
 import { SearchBox } from "./searchBox";
 import { fetchCourses, Course } from "../state/courses/courseSlice";
 
-export default function CourseContainer() {
+export default function CoursePage() {
   const dispatch = useDispatch<AppDispatch>();
   const [searchField, setSearchField] = useState("");
-  
+
   useEffect(() => {
     dispatch(fetchCourses());
   }, [dispatch]);

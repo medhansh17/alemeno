@@ -1,4 +1,5 @@
 import { Card, CardBody, CardFooter } from "@chakra-ui/react";
+import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import {
   Button,
@@ -12,6 +13,7 @@ import {
 import { Course } from "../state/courses/courseSlice";
 
 export const CourseCard = ({ course }: { course: Course }) => {
+  const navigate = useNavigate();
   const { id, name, description, instructor } = course;
 
   return (
@@ -39,7 +41,7 @@ export const CourseCard = ({ course }: { course: Course }) => {
             variant="solid"
             colorScheme="blue"
             onClick={() => {
-              window.location.href = `/course?id=${id}`;
+              navigate(`/course?id=${id}`);
             }}
           >
             Know More
