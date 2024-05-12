@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import { Toaster } from "react-hot-toast";
 import CoursePage from "./components/couseContainer";
 import CourseDetailPage from "./components/courseDetail";
 import LoginPage from "./components/login";
@@ -12,6 +13,7 @@ function App() {
   return (
     <>
       <Router>
+        <Toaster position="top-center" reverseOrder={false} />
         <Navbar />
         <Routes>
           <Route element={<ProtectedRoute />}>

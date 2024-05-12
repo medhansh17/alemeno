@@ -1,7 +1,7 @@
 {
   "courses": [
     {
-      "id": 1,
+      "id": "1",
       "name": "Introduction to React Native",
       "instructor": "John Doe",
       "description": "Learn the basics of React Native development and build your first mobile app.",
@@ -66,11 +66,27 @@
           "id": 102,
           "name": "Bob Smith",
           "email": "bob@example.com"
+        },
+        {
+          "id": 1,
+          "email": "y@gmail.com"
+        },
+        {
+          "id": "1",
+          "email": "y@gmail.com"
+        },
+        {
+          "id": "1",
+          "email": "y@gmail.com"
+        },
+        {
+          "id": 2,
+          "email": "m@gmail.com"
         }
       ]
     },
     {
-      "id": 2,
+      "id": "2",
       "name": "Intermediate React Native Development",
       "instructor": "Jane Smith",
       "description": "Take your React Native skills to the next level with advanced techniques and best practices.",
@@ -134,10 +150,19 @@
           "content": "Week 10 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": "1",
+          "email": "y@gmail.com"
+        },
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        }
+      ]
     },
     {
-      "id": 3,
+      "id": "3",
       "name": "Full-Stack Web Development Bootcamp",
       "instructor": "Alex Johnson",
       "description": "Become a full-stack web developer by mastering front-end and back-end technologies.",
@@ -211,10 +236,19 @@
           "content": "Week 12 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": "1",
+          "email": "y@gmail.com"
+        },
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        }
+      ]
     },
     {
-      "id": 4,
+      "id": "4",
       "name": "Python for Data Science",
       "instructor": "Emily Brown",
       "description": "Learn Python programming language and its applications in data analysis and visualization.",
@@ -271,7 +305,7 @@
       "students": []
     },
     {
-      "id": 5,
+      "id": "5",
       "name": "Machine Learning Fundamentals",
       "instructor": "Michael Clark",
       "description": "Learn the basics of machine learning, including algorithms, models, and applications.",
@@ -335,10 +369,15 @@
           "content": "Week 10 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        }
+      ]
     },
     {
-      "id": 6,
+      "id": "6",
       "name": "iOS App Development with Swift",
       "instructor": "David Wilson",
       "description": "Learn to develop iOS apps using Swift programming language and Xcode IDE.",
@@ -405,7 +444,7 @@
       "students": []
     },
     {
-      "id": 7,
+      "id": "7",
       "name": "Java Programming Fundamentals",
       "instructor": "Mark Thompson",
       "description": "Learn Java programming language from scratch and build your first Java application.",
@@ -479,10 +518,15 @@
           "content": "Week 12 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        }
+      ]
     },
     {
-      "id": 8,
+      "id": "8",
       "name": "Introduction to Data Structures and Algorithms",
       "instructor": "Sarah Lee",
       "description": "Learn fundamental data structures and algorithms and their implementation in various programming languages.",
@@ -570,7 +614,7 @@
       ]
     },
     {
-      "id": 9,
+      "id": "9",
       "name": "Android App Development with Kotlin",
       "instructor": "Daniel Brown",
       "description": "Learn to develop Android apps using Kotlin programming language and Android Studio.",
@@ -658,7 +702,7 @@
       ]
     },
     {
-      "id": 10,
+      "id": "10",
       "name": "Blockchain Fundamentals",
       "instructor": "Ryan Taylor",
       "description": "Learn the fundamentals of blockchain technology, cryptocurrencies, and smart contracts.",
@@ -727,27 +771,19 @@
   ],
   "users": [
     {
-      "id": "6c51",
-      "firstName": "medhansh",
-      "lastName": "jain",
-      "email": "me@gmail.com",
-      "password": "123456",
+      "id": "1",
+      "firstName": "Yash",
+      "lastName": "Kumar",
+      "email": "y@gmail.com",
+      "password": "qwerty",
       "enrolledCourses": []
     },
     {
-      "id": "1694",
+      "id": 2,
       "firstName": "medhansh",
       "lastName": "jain",
       "email": "m@gmail.com",
       "password": "medhansh@401",
-      "enrolledCourses": []
-    },
-    {
-      "id": "015f",
-      "firstName": "yash",
-      "lastName": "yash",
-      "email": "yash@gmail.com",
-      "password": "yash1234",
       "enrolledCourses": []
     }
   ]

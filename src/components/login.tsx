@@ -17,6 +17,7 @@ import { useDispatch } from "react-redux";
 import { setUser, User } from "../state/user/userSlice";
 import { AppDispatch } from "../state/store";
 import { useNavigate } from "react-router-dom";
+import toast from "react-hot-toast";
 
 export default function LoginPage() {
   const dispatch = useDispatch<AppDispatch>();
@@ -27,9 +28,10 @@ export default function LoginPage() {
     try {
       const user = await handleLogin(email, password);
       if (typeof user === "string") {
-        window.alert("Error signing in");
+        toast.error("Error Signing In");
       } else {
         const userData: User = {
+          id: user.id,
           firstName: user.firstName,
           lastName: user.lastName,
           email: user.email,
@@ -37,12 +39,12 @@ export default function LoginPage() {
         };
         localStorage.setItem("user", JSON.stringify(userData));
         dispatch(setUser(userData));
-        alert("Login Successful!");
+        toast.success("Logged in successfully");
         navigate("/");
       }
     } catch (error) {
       console.log("Error signing in", error);
-      window.alert("Error signing in");
+      toast.error("Error signing in");
     }
   };
 

@@ -18,7 +18,6 @@ export interface Course {
   }[];
   students: {
     id: number;
-    name: string;
     email: string;
   }[];
 }
@@ -74,6 +73,25 @@ const courseSlice = createSlice({
     setCourses: (state, action: PayloadAction<Course[]>) => {
       state.courses = action.payload;
     },
+    enrollStudent: (
+      state,
+      action: PayloadAction<{
+        courseId: number;
+        studentId: number;
+        email: string;
+      }>
+    ) => {
+      const course = state.courses.find(
+        (course) => course.id === action.payload.courseId
+      );
+      console.log(course);
+      if (course) {
+        course.students.push({
+          id: action.payload.studentId,
+          email: action.payload.email,
+        });
+      }
+    },
   },
   extraReducers: (builder) => {
     builder.addCase(fetchCourses.pending, (state) => {
@@ -92,5 +110,5 @@ const courseSlice = createSlice({
   },
 });
 
-export const { setCourses } = courseSlice.actions;
+export const { setCourses, enrollStudent } = courseSlice.actions;
 export default courseSlice.reducer;

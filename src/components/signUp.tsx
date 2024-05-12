@@ -18,6 +18,7 @@ import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { ViewIcon, ViewOffIcon } from "@chakra-ui/icons";
 import { handleSignUp } from "../utils/authApi";
+import toast from "react-hot-toast";
 
 export default function SignupCard() {
   const navigate = useNavigate();
@@ -31,12 +32,9 @@ export default function SignupCard() {
     const user = await handleSignUp(firstName, lastName, email, password);
     if (typeof user === "string") {
       console.log(user);
-
-      window.alert("Error signing up");
+      toast.error("Error Signing Up");
     } else {
-      console.log(user);
-
-      window.alert("Sign up successful!");
+      toast.success("Signed up successfully");
       navigate("/login");
     }
   };

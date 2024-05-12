@@ -1,6 +1,7 @@
 import { Card, CardBody, CardFooter } from "@chakra-ui/react";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
+import toast from "react-hot-toast";
 import {
   Button,
   ButtonGroup,
@@ -11,10 +12,31 @@ import {
   Text,
 } from "@chakra-ui/react";
 import { Course } from "../state/courses/courseSlice";
+import { selectUser } from "../state/user/userSlice";
+import { enrollStudent } from "../utils/courseApi";
+import { useDispatch } from "react-redux";
+import { AppDispatch } from "../state/store";
 
 export const CourseCard = ({ course }: { course: Course }) => {
   const navigate = useNavigate();
+  const dispatch = useDispatch<AppDispatch>();
   const { id, name, description, instructor } = course;
+  const user = selectUser();
+  const userId = user?.id;
+  const email = user?.email;
+
+  const handleEnroll = async () => {
+    if (!user || !email || !userId) {
+      navigate("/login");
+      return;
+    }
+    try {
+      const updatedCourse = await enrollStudent(id, userId, email);
+      return updatedCourse;
+    } catch (error) {
+      throw error;
+    }
+  };
 
   return (
     <Card maxW="300px">
@@ -36,7 +58,7 @@ export const CourseCard = ({ course }: { course: Course }) => {
       </CardBody>
       <Divider />
       <CardFooter>
-        <ButtonGroup spacing="2">
+        <ButtonGroup spacing="7">
           <Button
             variant="solid"
             colorScheme="blue"
@@ -45,6 +67,42 @@ export const CourseCard = ({ course }: { course: Course }) => {
             }}
           >
             Know More
+          </Button>
+          <Button
+            variant="solid"
+            colorScheme="blue"
+            onClick={() => {
+              if (!user || !email || !userId) {
+                toast.error("Please login to enroll");
+                navigate("/login");
+                return;
+              } else {
+                console.log("Enrolling user", email, "in course", id);
+                toast.promise(
+                  handleEnroll(),
+                  {
+                    loading: "Enrolling...",
+                    success: (updatedCourse) => {
+                      dispatch({
+                        type: "courses/updateCourse",
+                        payload: updatedCourse,
+                      });
+                      return "Enrolled successfully!";
+                    },
+                    error: (error) => {
+                      return error.toString();
+                    },
+                  },
+                  {
+                    style: {
+                      minWidth: "250px",
+                    },
+                  }
+                );
+              }
+            }}
+          >
+            Enroll
           </Button>
         </ButtonGroup>
       </CardFooter>

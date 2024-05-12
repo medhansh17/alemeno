@@ -1,3 +1,4 @@
+import toast from "react-hot-toast";
 import { User } from "../state/user/userSlice";
 
 export async function handleLogin(
@@ -16,13 +17,11 @@ export async function handleLogin(
 
       if (user) {
         resolve(user);
-        console.log("User logged in", user);
       } else {
         reject("Invalid email or password");
-        window.alert("Invalid email or password");
+        toast.error("Invalid email or password");
       }
     } catch (error) {
-      console.log("Error logging in", error);
       reject("Error logging in");
     }
   });
@@ -43,6 +42,7 @@ export async function handleSignUp(
       );
 
       const data = {
+        id: userData.length + 1,
         firstName: firstName,
         lastName: lastName,
         email: email,
@@ -51,7 +51,7 @@ export async function handleSignUp(
       };
 
       if (exisingUser) {
-        window.alert("User already exists");
+        toast.error("User already exists");
       } else {
         const response = await fetch("http://localhost:8000/users", {
           method: "POST",
