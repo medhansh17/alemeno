@@ -38,8 +38,8 @@ A simple course management website with course listing page, course details page
  
 ## Technologies Used:
 
-React: A JavaScript library for building user interfaces.
-Redux: A predictable state container for JavaScript apps.
-Chakra UI: A simple, modular, and accessible component library for React.
-React Router: Declarative routing for React.
-React Icons: Icons for React projects.
+- React: A JavaScript library for building user interfaces.
+- Redux: A predictable state container for JavaScript apps.
+- Chakra UI: A simple, modular, and accessible component library for React.
+- React Router: Declarative routing for React.
+- React Icons: Icons for React projects.
