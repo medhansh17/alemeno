@@ -2,7 +2,7 @@ import { createSlice, PayloadAction } from "@reduxjs/toolkit";
 import { Course } from "../courses/courseSlice";
 
 export interface User {
-  id: number;
+  id: string;
   firstName: string;
   lastName: string;
   email: string;
@@ -27,15 +27,21 @@ const userSlice = createSlice({
   reducers: {
     setUser: (state, action: PayloadAction<User | null>) => {
       state.user = action.payload;
-      sessionStorage.setItem("user", JSON.stringify(action.payload));
+      if (action.payload) {
+        localStorage.setItem("user", JSON.stringify(action.payload));
+      } else {
+        localStorage.removeItem("user");
+      }
     },
   },
 });
 
-export const selectUser = () =>
-  sessionStorage.getItem("user")
-    ? JSON.parse(sessionStorage.getItem("user") as string)
-    : null;
+
+
+export const selectUser = (): User | null => {
+  const user = localStorage.getItem("user");
+  return user ? JSON.parse(user) : null;
+};
 
 export const { setUser } = userSlice.actions;
 export default userSlice.reducer;

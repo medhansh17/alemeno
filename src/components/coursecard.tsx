@@ -31,7 +31,7 @@ export const CourseCard = ({ course }: { course: Course }) => {
       return;
     }
     try {
-      const updatedCourse = await enrollStudent(id, userId, email);
+      const updatedCourse = await enrollStudent(id, parseInt(userId), email);
       return updatedCourse;
     } catch (error) {
       throw error;

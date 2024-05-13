@@ -1,11 +1,28 @@
-import { useSelector } from "react-redux";
-import { RootState } from "../state/store";
+import { useEffect, useState } from "react";
+import { User } from "../state/user/userSlice";
 import { Course } from "../state/courses/courseSlice";
+import { selectUser } from "../state/user/userSlice";
+import { fetchUser } from "../utils/userApi";
+import toast from "react-hot-toast";
 
 export const Dashboard = () => {
-  const userEnrolledCourses: Course[] | undefined = useSelector(
-    (state: RootState) => state.user.user?.enrolledCourses
-  );
+  const [userEnrolledCourses, setUserEnrolledCourses] = useState<
+    Course[] | null
+  >(null);
+  const user: User | null = selectUser();
+  useEffect(() => {
+    const fetchUserData = async () => {
+      if (user) {
+        const userData = await fetchUser(parseInt(user.id));
+        if (typeof userData === "string") {
+          toast.error("Error fetching user data");
+        } else {
+          setUserEnrolledCourses(userData.enrolledCourses);
+        }
+      }
+    };
+    fetchUserData();
+  }, []);
   return (
     <div>
       <div className="bg-[#2D2F31] w-full h-[20vh] text-white flex items-center justify-center">

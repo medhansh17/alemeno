@@ -42,7 +42,7 @@ export async function handleSignUp(
       );
 
       const data = {
-        id: userData.length + 1,
+        id: String(userData.length + 1),
         firstName: firstName,
         lastName: lastName,
         email: email,

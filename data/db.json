@@ -82,6 +82,10 @@
         {
           "id": 2,
           "email": "m@gmail.com"
+        },
+        {
+          "id": "3",
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -158,6 +162,10 @@
         {
           "id": 2,
           "email": "m@gmail.com"
+        },
+        {
+          "id": "3",
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -244,6 +252,10 @@
         {
           "id": 2,
           "email": "m@gmail.com"
+        },
+        {
+          "id": "3",
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -373,6 +385,10 @@
         {
           "id": 2,
           "email": "m@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -441,7 +457,16 @@
           "content": "Week 10 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
+        }
+      ]
     },
     {
       "id": "7",
@@ -522,6 +547,10 @@
         {
           "id": 2,
           "email": "m@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -610,6 +639,18 @@
           "id": 202,
           "name": "James Wilson",
           "email": "james@example.com"
+        },
+        {
+          "id": 2,
+          "email": "m@gmail.com"
+        },
+        {
+          "id": "3",
+          "email": "me@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -698,6 +739,14 @@
           "id": 302,
           "name": "William Martinez",
           "email": "william@example.com"
+        },
+        {
+          "id": "3",
+          "email": "me@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
       ]
     },
@@ -766,7 +815,16 @@
           "content": "Emerging trends in blockchain technology and applications."
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": "3",
+          "email": "me@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
+        }
+      ]
     }
   ],
   "users": [
@@ -779,12 +837,778 @@
       "enrolledCourses": []
     },
     {
-      "id": 2,
+      "id": "2",
       "firstName": "medhansh",
       "lastName": "jain",
       "email": "m@gmail.com",
       "password": "medhansh@401",
       "enrolledCourses": []
+    },
+    {
+      "id": "3",
+      "firstName": "medhansh",
+      "lastName": "jain",
+      "email": "me@gmail.com",
+      "password": "123456",
+      "enrolledCourses": [
+        {
+          "id": "2",
+          "name": "Intermediate React Native Development",
+          "instructor": "Jane Smith",
+          "description": "Take your React Native skills to the next level with advanced techniques and best practices.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Completion of Introduction to React Native course"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Advanced UI Design",
+              "content": "Exploring advanced UI design techniques using React Native."
+            },
+            {
+              "week": 2,
+              "topic": "State Management",
+              "content": "Managing state in complex React Native applications."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            }
+          ],
+          "students": [
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "3",
+          "name": "Full-Stack Web Development Bootcamp",
+          "instructor": "Alex Johnson",
+          "description": "Become a full-stack web developer by mastering front-end and back-end technologies.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "12 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 9:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic knowledge of HTML, CSS, and JavaScript"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to HTML and CSS",
+              "content": "Building a strong foundation in HTML and CSS."
+            },
+            {
+              "week": 2,
+              "topic": "Introduction to JavaScript",
+              "content": "Learning the basics of JavaScript programming."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "1",
+          "name": "Introduction to React Native",
+          "instructor": "John Doe",
+          "description": "Learn the basics of React Native development and build your first mobile app.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "8 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic JavaScript knowledge",
+            "Familiarity with React"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to React Native",
+              "content": "Overview of React Native, setting up your development environment."
+            },
+            {
+              "week": 2,
+              "topic": "Building Your First App",
+              "content": "Creating a simple mobile app using React Native components."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 101,
+              "name": "Alice Johnson",
+              "email": "alice@example.com"
+            },
+            {
+              "id": 102,
+              "name": "Bob Smith",
+              "email": "bob@example.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            },
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "9",
+          "name": "Android App Development with Kotlin",
+          "instructor": "Daniel Brown",
+          "description": "Learn to develop Android apps using Kotlin programming language and Android Studio.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "12 weeks",
+          "schedule": "Mondays and Wednesdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic programming knowledge"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Kotlin",
+              "content": "Overview of Kotlin programming language."
+            },
+            {
+              "week": 2,
+              "topic": "Building UI with XML",
+              "content": "Creating user interfaces using XML."
+            },
+            {
+              "week": 3,
+              "topic": "Kotlin Basics",
+              "content": "Variables, data types, control flow statements."
+            },
+            {
+              "week": 4,
+              "topic": "Advanced Kotlin",
+              "content": "Functions, classes, inheritance, extensions."
+            },
+            {
+              "week": 5,
+              "topic": "Android Fundamentals",
+              "content": "Activities, intents, layouts."
+            },
+            {
+              "week": 6,
+              "topic": "Working with RecyclerView",
+              "content": "Displaying large data sets efficiently."
+            },
+            {
+              "week": 7,
+              "topic": "Networking and APIs",
+              "content": "Making network requests, parsing JSON."
+            },
+            {
+              "week": 8,
+              "topic": "Storing Data Locally",
+              "content": "SQLite database, Room persistence library."
+            },
+            {
+              "week": 9,
+              "topic": "Working with Firebase",
+              "content": "Authentication, real-time database, cloud messaging."
+            },
+            {
+              "week": 10,
+              "topic": "Publishing Your App",
+              "content": "Preparing and publishing your app on Google Play Store."
+            },
+            {
+              "week": 11,
+              "topic": "Advanced Topics",
+              "content": "MVVM architecture, dependency injection, testing."
+            },
+            {
+              "week": 12,
+              "topic": "Final Project",
+              "content": "Implement a project applying all learned concepts."
+            }
+          ],
+          "students": [
+            {
+              "id": 301,
+              "name": "Olivia Garcia",
+              "email": "olivia@example.com"
+            },
+            {
+              "id": 302,
+              "name": "William Martinez",
+              "email": "william@example.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "10",
+          "name": "Blockchain Fundamentals",
+          "instructor": "Ryan Taylor",
+          "description": "Learn the fundamentals of blockchain technology, cryptocurrencies, and smart contracts.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic understanding of computer science"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Blockchain",
+              "content": "Overview of blockchain technology, history, and concepts."
+            },
+            {
+              "week": 2,
+              "topic": "Cryptocurrencies",
+              "content": "Bitcoin, Ethereum, other altcoins."
+            },
+            {
+              "week": 3,
+              "topic": "Blockchain Architecture",
+              "content": "Consensus mechanisms, nodes, forks."
+            },
+            {
+              "week": 4,
+              "topic": "Smart Contracts",
+              "content": "Introduction to smart contracts, Solidity programming."
+            },
+            {
+              "week": 5,
+              "topic": "Decentralized Applications (DApps)",
+              "content": "Building decentralized applications on blockchain platforms."
+            },
+            {
+              "week": 6,
+              "topic": "Permissioned Blockchains",
+              "content": "Enterprise blockchain solutions, Hyperledger."
+            },
+            {
+              "week": 7,
+              "topic": "Blockchain Security",
+              "content": "Security threats, vulnerabilities, best practices."
+            },
+            {
+              "week": 8,
+              "topic": "Scalability and Interoperability",
+              "content": "Scalability issues, solutions, cross-chain communication."
+            },
+            {
+              "week": 9,
+              "topic": "Regulatory Environment",
+              "content": "Legal and regulatory aspects of blockchain technology."
+            },
+            {
+              "week": 10,
+              "topic": "Future Trends",
+              "content": "Emerging trends in blockchain technology and applications."
+            }
+          ],
+          "students": [
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "8",
+          "name": "Introduction to Data Structures and Algorithms",
+          "instructor": "Sarah Lee",
+          "description": "Learn fundamental data structures and algorithms and their implementation in various programming languages.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic programming knowledge"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Data Structures",
+              "content": "Overview of data structures, arrays, linked lists."
+            },
+            {
+              "week": 2,
+              "topic": "Stacks and Queues",
+              "content": "Implementing stacks and queues, applications."
+            },
+            {
+              "week": 3,
+              "topic": "Trees",
+              "content": "Introduction to tree data structure, binary trees, binary search trees."
+            },
+            {
+              "week": 4,
+              "topic": "Graphs",
+              "content": "Graph representation, traversals, shortest path algorithms."
+            },
+            {
+              "week": 5,
+              "topic": "Sorting Algorithms",
+              "content": "Bubble sort, insertion sort, selection sort, merge sort."
+            },
+            {
+              "week": 6,
+              "topic": "Searching Algorithms",
+              "content": "Linear search, binary search, interpolation search."
+            },
+            {
+              "week": 7,
+              "topic": "Hashing",
+              "content": "Hash tables, hash functions, collision resolution techniques."
+            },
+            {
+              "week": 8,
+              "topic": "Advanced Data Structures",
+              "content": "Heaps, priority queues, self-balancing trees."
+            },
+            {
+              "week": 9,
+              "topic": "Dynamic Programming",
+              "content": "Overview, optimal substructure, overlapping subproblems."
+            },
+            {
+              "week": 10,
+              "topic": "Final Project",
+              "content": "Implement a project using data structures and algorithms learned."
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 201,
+              "name": "Emma Davis",
+              "email": "emma@example.com"
+            },
+            {
+              "id": 202,
+              "name": "James Wilson",
+              "email": "james@example.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "5",
+          "name": "Machine Learning Fundamentals",
+          "instructor": "Michael Clark",
+          "description": "Learn the basics of machine learning, including algorithms, models, and applications.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Wednesdays and Fridays, 7:00 PM - 9:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic knowledge of Python"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Machine Learning",
+              "content": "Understanding the fundamentals of machine learning."
+            },
+            {
+              "week": 2,
+              "topic": "Supervised Learning",
+              "content": "Introduction to supervised learning algorithms."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "7",
+          "name": "Java Programming Fundamentals",
+          "instructor": "Mark Thompson",
+          "description": "Learn Java programming language from scratch and build your first Java application.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "12 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "No prior programming experience required"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Java",
+              "content": "Overview of Java programming language and its syntax."
+            },
+            {
+              "week": 2,
+              "topic": "Object-Oriented Programming",
+              "content": "Understanding the principles of object-oriented programming."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            }
+          ]
+        },
+        {
+          "id": "6",
+          "name": "iOS App Development with Swift",
+          "instructor": "David Wilson",
+          "description": "Learn to develop iOS apps using Swift programming language and Xcode IDE.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Mondays and Wednesdays, 7:00 PM - 9:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic programming knowledge"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Swift",
+              "content": "Overview of Swift programming language."
+            },
+            {
+              "week": 2,
+              "topic": "Building UI with SwiftUI",
+              "content": "Creating user interfaces using SwiftUI framework."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

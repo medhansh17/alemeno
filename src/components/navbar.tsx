@@ -42,7 +42,7 @@ const NavLink: React.FC<{ text: string; to: string }> = ({ text, to }) => {
 export default function Navbar() {
   const navigate = useNavigate();
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const user = useSelector(selectUser);
+  const user = selectUser();
   const dispatch = useDispatch<AppDispatch>();
   const location = useLocation();
 
