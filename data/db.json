@@ -434,6 +434,10 @@
         {
           "id": 3,
           "email": "me@gmail.com"
+        },
+        {
+          "id": 1,
+          "email": "y@gmail.com"
         }
       ],
       "likes": {
@@ -908,6 +912,10 @@
         {
           "id": 3,
           "email": "me@gmail.com"
+        },
+        {
+          "id": 1,
+          "email": "y@gmail.com"
         }
       ],
       "likes": {
@@ -927,7 +935,184 @@
       "lastName": "Kumar",
       "email": "y@gmail.com",
       "password": "qwerty",
-      "enrolledCourses": []
+      "enrolledCourses": [
+        {
+          "id": "10",
+          "name": "Blockchain Fundamentals",
+          "instructor": "Ryan Taylor",
+          "description": "Learn the fundamentals of blockchain technology, cryptocurrencies, and smart contracts.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Saturdays, 10:00 AM - 12:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic understanding of computer science"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Blockchain",
+              "content": "Overview of blockchain technology, history, and concepts."
+            },
+            {
+              "week": 2,
+              "topic": "Cryptocurrencies",
+              "content": "Bitcoin, Ethereum, other altcoins."
+            },
+            {
+              "week": 3,
+              "topic": "Blockchain Architecture",
+              "content": "Consensus mechanisms, nodes, forks."
+            },
+            {
+              "week": 4,
+              "topic": "Smart Contracts",
+              "content": "Introduction to smart contracts, Solidity programming."
+            },
+            {
+              "week": 5,
+              "topic": "Decentralized Applications (DApps)",
+              "content": "Building decentralized applications on blockchain platforms."
+            },
+            {
+              "week": 6,
+              "topic": "Permissioned Blockchains",
+              "content": "Enterprise blockchain solutions, Hyperledger."
+            },
+            {
+              "week": 7,
+              "topic": "Blockchain Security",
+              "content": "Security threats, vulnerabilities, best practices."
+            },
+            {
+              "week": 8,
+              "topic": "Scalability and Interoperability",
+              "content": "Scalability issues, solutions, cross-chain communication."
+            },
+            {
+              "week": 9,
+              "topic": "Regulatory Environment",
+              "content": "Legal and regulatory aspects of blockchain technology."
+            },
+            {
+              "week": 10,
+              "topic": "Future Trends",
+              "content": "Emerging trends in blockchain technology and applications."
+            }
+          ],
+          "students": [
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        },
+        {
+          "id": "5",
+          "name": "Machine Learning Fundamentals",
+          "instructor": "Michael Clark",
+          "description": "Learn the basics of machine learning, including algorithms, models, and applications.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Wednesdays and Fridays, 7:00 PM - 9:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic knowledge of Python"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Machine Learning",
+              "content": "Understanding the fundamentals of machine learning."
+            },
+            {
+              "week": 2,
+              "topic": "Supervised Learning",
+              "content": "Introduction to supervised learning algorithms."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        }
+      ]
     },
     {
       "id": "2",

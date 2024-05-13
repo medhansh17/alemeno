@@ -20,6 +20,7 @@ import { AppDispatch } from "../state/store";
 
 export default function PostWithLike({ course }: { course: Course }) {
   const [liked, setLiked] = useState(false);
+  const [enrolled, setEnrolled] = useState(false);
   const navigate = useNavigate();
   const dispatch = useDispatch<AppDispatch>();
   const { id, name, description, instructor, likes, enrollmentStatus } = course;
@@ -52,6 +53,7 @@ export default function PostWithLike({ course }: { course: Course }) {
         type: "courses/updateCourse",
         payload: updatedCourse,
       });
+      setEnrolled(true);
       return updatedCourse;
     } catch (error) {
       throw error;
@@ -157,29 +159,35 @@ export default function PostWithLike({ course }: { course: Course }) {
                 navigate("/login");
                 return;
               } else {
-                console.log("Enrolling user", email, "in course", id);
-                toast.promise(
-                  handleEnroll(),
-                  {
-                    loading: "Enrolling...",
-                    success: (updatedCourse) => {
-                      return "Enrolled successfully!";
+                if (!enrolled) {
+                  console.log("Enrolling user", email, "in course", id);
+                  toast.promise(
+                    handleEnroll(),
+                    {
+                      loading: "Enrolling...",
+                      success: (updatedCourse) => {
+                        return "Enrolled successfully!";
+                      },
+                      error: (error) => {
+                        return error.toString();
+                      },
                     },
-                    error: (error) => {
-                      return error.toString();
-                    },
-                  },
-                  {
-                    style: {
-                      minWidth: "250px",
-                    },
-                  }
-                );
+                    {
+                      style: {
+                        minWidth: "250px",
+                      },
+                    }
+                  );
+                }
               }
             }}
           >
             <Text fontSize={"md"} fontWeight={"semibold"}>
-              {checkUserEnrolled() ? "Enrolled" : "Enroll"}
+              {enrolled
+                ? "Enrolled"
+                : checkUserEnrolled()
+                ? "Enrolled"
+                : "Enroll"}
             </Text>
           </Flex>
         </HStack>
