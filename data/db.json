@@ -86,8 +86,20 @@
         {
           "id": "3",
           "email": "me@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "2",
@@ -166,8 +178,20 @@
         {
           "id": "3",
           "email": "me@gmail.com"
+        },
+        {
+          "id": 3,
+          "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "3",
@@ -257,7 +281,15 @@
           "id": "3",
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "4",
@@ -314,7 +346,20 @@
           "content": "Week 8 content"
         }
       ],
-      "students": []
+      "students": [
+        {
+          "id": 3,
+          "email": "me@gmail.com"
+        }
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "5",
@@ -390,7 +435,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "6",
@@ -466,7 +519,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "7",
@@ -552,7 +613,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "8",
@@ -652,7 +721,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "9",
@@ -748,7 +825,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     },
     {
       "id": "10",
@@ -824,7 +909,15 @@
           "id": 3,
           "email": "me@gmail.com"
         }
-      ]
+      ],
+      "likes": {
+        "count": 3,
+        "userIds": [
+          "1",
+          "2",
+          "3"
+        ]
+      }
     }
   ],
   "users": [
@@ -1607,6 +1700,76 @@
               "email": "me@gmail.com"
             }
           ]
+        },
+        {
+          "id": "4",
+          "name": "Python for Data Science",
+          "instructor": "Emily Brown",
+          "description": "Learn Python programming language and its applications in data analysis and visualization.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "8 weeks",
+          "schedule": "Saturdays, 10:00 AM - 1:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "No prior programming experience required"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Python",
+              "content": "Overview of Python programming language and its features."
+            },
+            {
+              "week": 2,
+              "topic": "Data Analysis with Pandas",
+              "content": "Introduction to Pandas library for data analysis."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
         }
       ]
     }

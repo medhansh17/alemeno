@@ -3,8 +3,8 @@ import { createSlice, PayloadAction, createAsyncThunk } from "@reduxjs/toolkit";
 export interface Course {
   id: number;
   name: string;
-  description: string;
   instructor: string;
+  description: string;
   enrollmentStatus: string;
   thumbnail: string;
   duration: string;
@@ -17,9 +17,13 @@ export interface Course {
     content: string;
   }[];
   students: {
-    id: number;
+    id: string;
     email: string;
   }[];
+  likes: {
+    count: number;
+    userIds: string[];
+  };
 }
 
 interface CourseState {
@@ -87,7 +91,7 @@ const courseSlice = createSlice({
       console.log(course);
       if (course) {
         course.students.push({
-          id: action.payload.studentId,
+          id: action.payload.studentId.toString(),
           email: action.payload.email,
         });
       }

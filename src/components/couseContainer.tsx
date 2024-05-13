@@ -1,9 +1,9 @@
-import { CourseCard } from "./coursecard";
 import { useSelector, useDispatch } from "react-redux";
 import { RootState, AppDispatch } from "../state/store";
 import { useEffect, useState } from "react";
 import { SearchBox } from "./searchBox";
 import { fetchCourses, Course } from "../state/courses/courseSlice";
+import PostWithLike from "./newCourseCard";
 
 export default function CoursePage() {
   const dispatch = useDispatch<AppDispatch>();
@@ -39,7 +39,7 @@ export default function CoursePage() {
       {courses.error && <p>{courses.error}</p>}
       <div className="flex flex-row flex-wrap justify-evenly gap-[2rem] w-[95%] mx-auto">
         {filteredCourses.map((course) => (
-          <CourseCard key={course.id} course={course} />
+          <PostWithLike key={course.id} course={course} />
         ))}
       </div>
     </div>
