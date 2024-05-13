@@ -90,6 +90,10 @@
         {
           "id": 3,
           "email": "me@gmail.com"
+        },
+        {
+          "id": 4,
+          "email": "medhanshjain@gmail.com"
         }
       ],
       "likes": {
@@ -616,6 +620,10 @@
         {
           "id": 3,
           "email": "me@gmail.com"
+        },
+        {
+          "id": 1,
+          "email": "y@gmail.com"
         }
       ],
       "likes": {
@@ -724,6 +732,14 @@
         {
           "id": 3,
           "email": "me@gmail.com"
+        },
+        {
+          "id": 1,
+          "email": "y@gmail.com"
+        },
+        {
+          "id": 4,
+          "email": "medhanshjain@gmail.com"
         }
       ],
       "likes": {
@@ -1093,6 +1109,216 @@
             {
               "id": 2,
               "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        },
+        {
+          "id": "7",
+          "name": "Java Programming Fundamentals",
+          "instructor": "Mark Thompson",
+          "description": "Learn Java programming language from scratch and build your first Java application.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "12 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "No prior programming experience required"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Java",
+              "content": "Overview of Java programming language and its syntax."
+            },
+            {
+              "week": 2,
+              "topic": "Object-Oriented Programming",
+              "content": "Understanding the principles of object-oriented programming."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            },
+            {
+              "week": 9,
+              "topic": "Week 9 Topic",
+              "content": "Week 9 content"
+            },
+            {
+              "week": 10,
+              "topic": "Week 10 Topic",
+              "content": "Week 10 content"
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "name": "Introduction to Data Structures and Algorithms",
+          "instructor": "Sarah Lee",
+          "description": "Learn fundamental data structures and algorithms and their implementation in various programming languages.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic programming knowledge"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Data Structures",
+              "content": "Overview of data structures, arrays, linked lists."
+            },
+            {
+              "week": 2,
+              "topic": "Stacks and Queues",
+              "content": "Implementing stacks and queues, applications."
+            },
+            {
+              "week": 3,
+              "topic": "Trees",
+              "content": "Introduction to tree data structure, binary trees, binary search trees."
+            },
+            {
+              "week": 4,
+              "topic": "Graphs",
+              "content": "Graph representation, traversals, shortest path algorithms."
+            },
+            {
+              "week": 5,
+              "topic": "Sorting Algorithms",
+              "content": "Bubble sort, insertion sort, selection sort, merge sort."
+            },
+            {
+              "week": 6,
+              "topic": "Searching Algorithms",
+              "content": "Linear search, binary search, interpolation search."
+            },
+            {
+              "week": 7,
+              "topic": "Hashing",
+              "content": "Hash tables, hash functions, collision resolution techniques."
+            },
+            {
+              "week": 8,
+              "topic": "Advanced Data Structures",
+              "content": "Heaps, priority queues, self-balancing trees."
+            },
+            {
+              "week": 9,
+              "topic": "Dynamic Programming",
+              "content": "Overview, optimal substructure, overlapping subproblems."
+            },
+            {
+              "week": 10,
+              "topic": "Final Project",
+              "content": "Implement a project using data structures and algorithms learned."
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 201,
+              "name": "Emma Davis",
+              "email": "emma@example.com"
+            },
+            {
+              "id": 202,
+              "name": "James Wilson",
+              "email": "james@example.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
             },
             {
               "id": 3,
@@ -1945,6 +2171,236 @@
             {
               "id": 3,
               "email": "me@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "firstName": "Medhansh",
+      "lastName": "Jain",
+      "email": "medhanshjain@gmail.com",
+      "password": "123456",
+      "enrolledCourses": [
+        {
+          "id": "1",
+          "name": "Introduction to React Native",
+          "instructor": "John Doe",
+          "description": "Learn the basics of React Native development and build your first mobile app.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "8 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic JavaScript knowledge",
+            "Familiarity with React"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to React Native",
+              "content": "Overview of React Native, setting up your development environment."
+            },
+            {
+              "week": 2,
+              "topic": "Building Your First App",
+              "content": "Creating a simple mobile app using React Native components."
+            },
+            {
+              "week": 3,
+              "topic": "Week 3 Topic",
+              "content": "Week 3 content"
+            },
+            {
+              "week": 4,
+              "topic": "Week 4 Topic",
+              "content": "Week 4 content"
+            },
+            {
+              "week": 5,
+              "topic": "Week 5 Topic",
+              "content": "Week 5 content"
+            },
+            {
+              "week": 6,
+              "topic": "Week 6 Topic",
+              "content": "Week 6 content"
+            },
+            {
+              "week": 7,
+              "topic": "Week 7 Topic",
+              "content": "Week 7 content"
+            },
+            {
+              "week": 8,
+              "topic": "Week 8 Topic",
+              "content": "Week 8 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 101,
+              "name": "Alice Johnson",
+              "email": "alice@example.com"
+            },
+            {
+              "id": 102,
+              "name": "Bob Smith",
+              "email": "bob@example.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            },
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": "1",
+              "email": "y@gmail.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 4,
+              "email": "medhanshjain@gmail.com"
+            }
+          ],
+          "likes": {
+            "count": 3,
+            "userIds": [
+              "1",
+              "2",
+              "3"
+            ]
+          }
+        },
+        {
+          "id": "8",
+          "name": "Introduction to Data Structures and Algorithms",
+          "instructor": "Sarah Lee",
+          "description": "Learn fundamental data structures and algorithms and their implementation in various programming languages.",
+          "enrollmentStatus": "Open",
+          "thumbnail": "your.image.here",
+          "duration": "10 weeks",
+          "schedule": "Tuesdays and Thursdays, 6:00 PM - 8:00 PM",
+          "location": "Online",
+          "prerequisites": [
+            "Basic programming knowledge"
+          ],
+          "syllabus": [
+            {
+              "week": 1,
+              "topic": "Introduction to Data Structures",
+              "content": "Overview of data structures, arrays, linked lists."
+            },
+            {
+              "week": 2,
+              "topic": "Stacks and Queues",
+              "content": "Implementing stacks and queues, applications."
+            },
+            {
+              "week": 3,
+              "topic": "Trees",
+              "content": "Introduction to tree data structure, binary trees, binary search trees."
+            },
+            {
+              "week": 4,
+              "topic": "Graphs",
+              "content": "Graph representation, traversals, shortest path algorithms."
+            },
+            {
+              "week": 5,
+              "topic": "Sorting Algorithms",
+              "content": "Bubble sort, insertion sort, selection sort, merge sort."
+            },
+            {
+              "week": 6,
+              "topic": "Searching Algorithms",
+              "content": "Linear search, binary search, interpolation search."
+            },
+            {
+              "week": 7,
+              "topic": "Hashing",
+              "content": "Hash tables, hash functions, collision resolution techniques."
+            },
+            {
+              "week": 8,
+              "topic": "Advanced Data Structures",
+              "content": "Heaps, priority queues, self-balancing trees."
+            },
+            {
+              "week": 9,
+              "topic": "Dynamic Programming",
+              "content": "Overview, optimal substructure, overlapping subproblems."
+            },
+            {
+              "week": 10,
+              "topic": "Final Project",
+              "content": "Implement a project using data structures and algorithms learned."
+            },
+            {
+              "week": 11,
+              "topic": "Week 11 Topic",
+              "content": "Week 11 content"
+            },
+            {
+              "week": 12,
+              "topic": "Week 12 Topic",
+              "content": "Week 12 content"
+            }
+          ],
+          "students": [
+            {
+              "id": 201,
+              "name": "Emma Davis",
+              "email": "emma@example.com"
+            },
+            {
+              "id": 202,
+              "name": "James Wilson",
+              "email": "james@example.com"
+            },
+            {
+              "id": 2,
+              "email": "m@gmail.com"
+            },
+            {
+              "id": "3",
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 3,
+              "email": "me@gmail.com"
+            },
+            {
+              "id": 1,
+              "email": "y@gmail.com"
+            },
+            {
+              "id": 4,
+              "email": "medhanshjain@gmail.com"
             }
           ],
           "likes": {
